@@ -24,15 +24,17 @@ The smart contracts in this repository are integral to the [Your Project Name] e
 
 The repository includes the compiled bytecode and ABI of the Solidity contracts. These are generated from the following Solidity files:
 
-- `Contract1.sol`: [Brief description of Contract1]
-- `Contract2.sol`: [Brief description of Contract2]
-- ...
+- `Impresso.sol`: [Base ECR20 smart contract]
+- `ImpressoAC.sol`: [ECR20 smart contract with Access Control]
+- `ImpressoVotable.sol`: [Voteable ECR20 smart contract]
+- `ImpressoVotableAC.sol`: [Voteable ECR20 smart contract with Access Control]
+- `UUPSProxy.sol`: [UUPS (Universal Upgradeable Proxy Standard) is one of the standards for creating upgradeable smart contracts]
 
 ### Contract Addresses
 
-- **Contract1**: [Address on mainnet/testnet]
-- **Contract2**: [Address on mainnet/testnet]
-- ...
+- **MOCA**: [Address on mainnet/testnet]
+- **ESSO**: [Address on mainnet/testnet]
+- **BREW**: [Address on mainnet/testnet]
 
 ## How to Audit
 
@@ -49,5 +51,5 @@ We welcome audits from security researchers, developers, and the general public.
 To get started with auditing, clone this repository and navigate to the relevant directories:
 
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
+git clone https://github.com/IMPRESSOLABS/Contracts.git
+cd Contracts
