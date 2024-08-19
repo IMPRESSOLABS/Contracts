@@ -20,9 +20,9 @@ The smart contracts in this repository are integral to the [Your Project Name] e
 
 ## Contract Details
 
-### Compiled Contracts
+### Source and Compiled Contracts
 
-The repository includes the compiled bytecode and ABI of the Solidity contracts. These are generated from the following Solidity files:
+The repository includes the compiled ABI of the Solidity contracts. These are generated from the following Solidity files:
 
 - `Impresso.sol`: [Base ECR20 smart contract]
 - `ImpressoAC.sol`: [ECR20 smart contract with Access Control]
